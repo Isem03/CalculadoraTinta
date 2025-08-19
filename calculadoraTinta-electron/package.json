@@ -1,0 +1,21 @@
+{
+  "name": "calculadoraTinta-electron",
+  "version": "1.0.0",
+  "main": "src/electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "react-scripts build",
+    "dev": "concurrently \"npm run start\" \"npm run build\""
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "homepage": ".",
+  "license": "MIT"
+}
